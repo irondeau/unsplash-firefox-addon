@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Unsplash Add-On",
+    "version": "1.0",
+    
+    "description": "A Firefox Add-On That Utilizes Unsplash.com On Each New Tab",
+    
+    "permissions": [
+        "tabs"
+    ],
+    
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+}
