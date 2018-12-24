@@ -10,7 +10,7 @@
         "webRequest"
     ],
     
-    "content_security_policy": "default-src 'self' https://api.unsplash.com/; script-src 'self' https://ajax.googleapis.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline';",
+    "content_security_policy": "default-src 'self' https://api.unsplash.com/ https://images.unsplash.com/; script-src 'self' https://ajax.googleapis.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline';",
     
     "chrome_url_overrides": {
         "newtab": "index.html"
